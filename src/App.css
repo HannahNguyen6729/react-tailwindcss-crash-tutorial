@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* style doesn't work if custom css here in App.css file, only work in index.css file */
+
+@layer base {
+  body {
+    @apply font-barlow;
+  }
+
+  h4 {
+    @apply text-4xl;
+  }
+
+  h1 {
+    @apply text-2xl;
+  }
+}
